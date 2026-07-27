@@ -34,6 +34,23 @@ items.forEach((item) => {
   });
 });
 
+// Mobile nav toggle.
+const navToggle = document.querySelector(".nav-toggle");
+if (navToggle) {
+  const closeNav = () => {
+    navToggle.closest(".site-header").classList.remove("nav-open");
+    navToggle.setAttribute("aria-expanded", "false");
+  };
+  navToggle.addEventListener("click", () => {
+    const open = navToggle.closest(".site-header").classList.toggle("nav-open");
+    navToggle.setAttribute("aria-expanded", String(open));
+  });
+  document.querySelectorAll(".main-nav a").forEach((link) => link.addEventListener("click", closeNav));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeNav();
+  });
+}
+
 // Header goes solid once the hero has scrolled past, on pages that have one.
 const header = document.querySelector(".site-header");
 const hero = document.querySelector(".hero");
