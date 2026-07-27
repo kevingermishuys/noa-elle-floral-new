@@ -37,8 +37,8 @@
 }
 
 :root {
-  --bark: #241f1a;
-  --olive: #4e5340;
+  --bark: #3a2b20;
+  --olive: #5c5a42;
   --stone: #e8e1d6;
   --pampas: #c7b49a;
   --protea: #b87b70;
@@ -266,9 +266,9 @@ p {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(36, 31, 26, 0.55) 0%,
-    rgba(36, 31, 26, 0.35) 35%,
-    rgba(36, 31, 26, 0.92) 100%
+    rgba(58, 43, 32, 0.55) 0%,
+    rgba(58, 43, 32, 0.35) 35%,
+    rgba(58, 43, 32, 0.92) 100%
   );
 }
 
@@ -304,7 +304,7 @@ p {
   font-size: 0.68rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  background: rgba(36, 31, 26, 0.75);
+  background: rgba(58, 43, 32, 0.75);
   border: 1px solid rgba(232, 225, 214, 0.35);
   color: var(--pampas);
   padding: 0.4em 0.7em;
@@ -407,7 +407,7 @@ section {
   right: 0;
   bottom: 0;
   padding: var(--space-2);
-  background: linear-gradient(180deg, transparent, rgba(36, 31, 26, 0.85));
+  background: linear-gradient(180deg, transparent, rgba(58, 43, 32, 0.85));
   font-size: 0.85rem;
   color: var(--stone);
 }
@@ -495,7 +495,7 @@ section {
   padding: var(--space-2);
   font-size: 0.82rem;
   color: var(--stone);
-  background: linear-gradient(180deg, transparent, rgba(36, 31, 26, 0.9));
+  background: linear-gradient(180deg, transparent, rgba(58, 43, 32, 0.9));
   transform: translateY(100%);
   transition: transform 0.3s ease;
 }
