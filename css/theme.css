@@ -172,18 +172,20 @@ p {
 /* ---------- Header / nav ---------- */
 
 .site-header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 20;
   padding: var(--space-2) 0;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .site-header.is-solid {
-  position: sticky;
   background: var(--bark);
-  border-bottom: 1px solid rgba(199, 180, 154, 0.18);
+  border-bottom-color: rgba(199, 180, 154, 0.18);
 }
 
 .site-header .wrap {
@@ -741,14 +743,30 @@ section {
   white-space: nowrap;
 }
 
+.brand-name {
+  white-space: nowrap;
+}
+
 @media (max-width: 40rem) {
   .main-nav {
-    gap: var(--space-2);
+    gap: 0.7rem;
   }
   .main-nav a {
-    font-size: 0.72rem;
+    font-size: 0.66rem;
   }
   .brand-name {
-    display: none;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 23rem) {
+  .main-nav {
+    gap: 0.5rem;
+  }
+  .main-nav a {
+    font-size: 0.6rem;
+  }
+  .brand-name {
+    font-size: 0.8rem;
   }
 }
