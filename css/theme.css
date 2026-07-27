@@ -37,11 +37,12 @@
 }
 
 :root {
-  --bark: #3a2b20;
-  --olive: #5c5a42;
+  --bark: #55402f;
+  --olive: #6b6850;
   --stone: #e8e1d6;
   --pampas: #c7b49a;
   --protea: #b87b70;
+  --ink: #201a14; /* fixed dark text colour for use on light/accent surfaces, independent of --bark */
 
   --font-display: "Gambetta", "Iowan Old Style", serif;
   --font-body: "General Sans", -apple-system, BlinkMacSystemFont, sans-serif;
@@ -147,7 +148,7 @@ p {
 
 .btn-primary {
   background: var(--protea);
-  color: var(--bark);
+  color: var(--ink);
 }
 .btn-primary:hover {
   background: #c98d82;
@@ -231,6 +232,8 @@ p {
 .main-nav a[aria-current="page"] {
   opacity: 1;
   color: var(--protea);
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
 }
 
 .nav-toggle {
@@ -266,9 +269,9 @@ p {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(58, 43, 32, 0.55) 0%,
-    rgba(58, 43, 32, 0.35) 35%,
-    rgba(58, 43, 32, 0.92) 100%
+    rgba(85, 64, 47, 0.55) 0%,
+    rgba(85, 64, 47, 0.35) 35%,
+    rgba(85, 64, 47, 0.92) 100%
   );
 }
 
@@ -304,7 +307,7 @@ p {
   font-size: 0.68rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  background: rgba(58, 43, 32, 0.75);
+  background: rgba(85, 64, 47, 0.75);
   border: 1px solid rgba(232, 225, 214, 0.35);
   color: var(--pampas);
   padding: 0.4em 0.7em;
@@ -407,7 +410,7 @@ section {
   right: 0;
   bottom: 0;
   padding: var(--space-2);
-  background: linear-gradient(180deg, transparent, rgba(58, 43, 32, 0.85));
+  background: linear-gradient(180deg, transparent, rgba(85, 64, 47, 0.85));
   font-size: 0.85rem;
   color: var(--stone);
 }
@@ -447,7 +450,7 @@ section {
 .filter-tab[aria-pressed="true"] {
   background: var(--protea);
   border-color: var(--protea);
-  color: var(--bark);
+  color: var(--ink);
 }
 
 .masonry {
@@ -495,7 +498,7 @@ section {
   padding: var(--space-2);
   font-size: 0.82rem;
   color: var(--stone);
-  background: linear-gradient(180deg, transparent, rgba(58, 43, 32, 0.9));
+  background: linear-gradient(180deg, transparent, rgba(85, 64, 47, 0.9));
   transform: translateY(100%);
   transition: transform 0.3s ease;
 }
