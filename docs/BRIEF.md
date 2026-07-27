@@ -209,6 +209,19 @@ A gallery is the natural enemy of a fast site, so this is decided up front, not 
 
 Items 1, 4 and 5 are hard blockers on the hero. The rest can run in parallel.
 
+### Decisions taken (Kevin, 27 July 2026) — see docs/DECISIONS.md for full rationale
+
+| # | Decision |
+|---|---|
+| 1 | **Nòa-Elle (grave)**, everywhere. Matches the master logo and both menu headers. Still worth a one-line confirmation from Inge before final ship. |
+| 2 | Unknown — flagged for Inge. Treating it as a studio/workshop, not a public premises, until told otherwise. No address/map added. |
+| 3 | **Version B — Elle/Nòa house names**, R450/R650, per the brief's own recommendation. Still Mother's Day pricing; year-round list still needed from Inge. |
+| 4 | Not resolved. Every supplied photo is Instagram-screenshot quality (~1170–1180px). Hero will ship with a flagged placeholder until Inge sends a real camera original. |
+| 5 | Logo will be **recreated as a clean vector/PNG** in-house from logo-master.jpeg rather than waiting on Inge's source file. |
+| 6 | **WhatsApp only** — no enquiry form, no POPIA obligation from a form. Email/trading hours still open. |
+| 7 | **All four pages confirmed**: Home, Gallery, Order, Weddings & Events. |
+| 8 | Still open — holding delivery-timing language vague ("contact us for timing") until Inge confirms whether Wednesday-only is permanent or Mother's-Day-specific. |
+
 ---
 
 ## 12. Build sequence

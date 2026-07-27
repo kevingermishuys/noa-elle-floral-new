@@ -1,0 +1,26 @@
+{
+  "name": "noa-elle-floral-new",
+  "version": "1.0.0",
+  "description": "Nòa-Elle Floral Studio marketing site — static HTML/CSS/JS, no framework.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "trace-logo": "node scripts/trace-logo.js",
+    "process-images": "node scripts/process-images.js",
+    "build-gallery-html": "node scripts/build-gallery-html.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevingermishuys/noa-elle-floral-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "potrace": "^2.1.8",
+    "sharp": "^0.35.3"
+  }
+}
