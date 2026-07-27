@@ -252,7 +252,58 @@ p {
   overflow: hidden;
 }
 
+.hero-decor {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.hero-decor svg {
+  position: absolute;
+  stroke: var(--stone);
+  fill: none;
+}
+
+.hero-decor .bloom-1 {
+  width: 34rem;
+  height: 34rem;
+  top: -12rem;
+  right: -10rem;
+  opacity: 0.14;
+  stroke-width: 0.6;
+}
+
+.hero-decor .bloom-2 {
+  width: 20rem;
+  height: 20rem;
+  bottom: -8rem;
+  left: -6rem;
+  opacity: 0.12;
+  stroke-width: 0.7;
+  transform: rotate(18deg);
+}
+
+.hero-decor .bloom-3 {
+  width: 12rem;
+  height: 12rem;
+  top: 6rem;
+  left: 58%;
+  opacity: 0.1;
+  stroke-width: 0.8;
+  transform: rotate(-12deg);
+}
+
+@media (max-width: 56rem) {
+  .hero-decor .bloom-3 {
+    display: none;
+  }
+}
+
 .hero .wrap {
+  position: relative;
+  z-index: 1;
   display: grid;
   gap: var(--space-4);
   align-items: center;
