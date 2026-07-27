@@ -339,9 +339,100 @@ section {
   color: var(--bark);
 }
 
+.section-stone .btn-secondary {
+  color: var(--bark);
+  border-color: rgba(36, 31, 26, 0.35);
+}
+.section-stone .btn-secondary:hover {
+  border-color: var(--bark);
+}
+
+.section-stone .delivery-note {
+  color: #7a6a54;
+}
+
 .section-head {
   max-width: 38rem;
   margin-bottom: var(--space-4);
+}
+
+/* ---------- Feature strip ---------- */
+
+.feature-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: var(--space-4);
+}
+
+.feature-strip .icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  margin-bottom: var(--space-2);
+  color: var(--protea);
+}
+
+.feature-strip h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.4em;
+}
+
+.feature-strip p {
+  font-size: 0.92rem;
+  color: var(--pampas);
+  max-width: 22rem;
+}
+
+/* ---------- Catalog teaser ---------- */
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: var(--space-3);
+}
+
+.catalog-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: rgba(36, 31, 26, 0.04);
+  border: 1px solid rgba(36, 31, 26, 0.12);
+}
+
+.catalog-card .catalog-photo {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+}
+
+.catalog-card .catalog-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.catalog-card:hover .catalog-photo img {
+  transform: scale(1.04);
+}
+
+.catalog-card .catalog-body {
+  padding: var(--space-2) var(--space-3) var(--space-3);
+}
+
+.catalog-card .catalog-name {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  display: block;
+}
+
+.catalog-card .catalog-desc {
+  font-size: 0.85rem;
+  color: #7a6a54;
+  display: block;
+  margin: 0.2em 0 0.6em;
+}
+
+.catalog-card .catalog-price {
+  font-weight: 500;
 }
 
 .rule {
@@ -364,6 +455,13 @@ section {
 .delivery-list li {
   border-top: 1px solid rgba(199, 180, 154, 0.3);
   padding-top: var(--space-2);
+}
+
+.delivery-list .icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  color: var(--protea);
+  margin-bottom: 0.5em;
 }
 
 .delivery-list .estate-name {
