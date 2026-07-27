@@ -301,19 +301,25 @@ p {
 
 .hero-placeholder-flag {
   position: absolute;
-  right: var(--space-3);
-  top: 4.75rem;
+  left: var(--space-3);
+  bottom: var(--space-2);
   z-index: 3;
-  font-size: 0.68rem;
-  letter-spacing: 0.08em;
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+  white-space: nowrap;
   background: rgba(85, 64, 47, 0.75);
-  border: 1px solid rgba(232, 225, 214, 0.35);
+  border: 1px solid rgba(232, 225, 214, 0.3);
   color: var(--pampas);
-  padding: 0.4em 0.7em;
+  padding: 0.3em 0.6em;
   border-radius: var(--radius);
-  max-width: calc(100vw - 2 * var(--space-3));
-  text-align: right;
+}
+
+@media (max-width: 30rem) {
+  .hero-placeholder-flag {
+    font-size: 0.56rem;
+    padding: 0.25em 0.5em;
+  }
 }
 
 /* ---------- Sections ---------- */
@@ -324,6 +330,12 @@ section {
 
 .section-olive {
   background: var(--olive);
+  color: var(--stone);
+}
+
+.section-bark {
+  background: var(--bark);
+  color: var(--stone);
 }
 
 .section-stone {
@@ -347,6 +359,8 @@ section {
   border-color: var(--bark);
 }
 
+.section-stone .feature-strip p,
+.section-stone .menu-item .desc,
 .section-stone .delivery-note {
   color: #7a6a54;
 }
@@ -517,7 +531,6 @@ section {
 
 .gallery-hero {
   padding: calc(var(--space-6) + 3rem) 0 var(--space-4);
-  background: var(--bark);
 }
 
 .filter-tabs {
@@ -549,6 +562,14 @@ section {
   background: var(--protea);
   border-color: var(--protea);
   color: var(--ink);
+}
+
+.section-stone .filter-tab {
+  border-color: rgba(36, 31, 26, 0.3);
+  color: var(--bark);
+}
+.section-stone .filter-tab:hover {
+  border-color: var(--bark);
 }
 
 .masonry {
@@ -677,6 +698,10 @@ section {
   font-family: var(--font-display);
   font-size: 1.4rem;
   color: var(--protea);
+}
+
+.section-stone .steps li::before {
+  color: var(--bark);
 }
 
 /* ---------- Footer ---------- */
