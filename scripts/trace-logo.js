@@ -43,15 +43,15 @@ async function main() {
     .toBuffer();
   const markBuffer = await trimAndPad(markRaw);
 
-  await trace(markBuffer, '#E8E1D6', 'logo-mark.svg', 'mark svg');
-  await trace(markBuffer, '#241F1A', 'logo-mark-dark.svg', 'mark dark svg');
+  // v2 "Porcelain" palette: ink mark for light grounds (header), porcelain mark for dark grounds (footer).
+  await trace(markBuffer, '#222821', 'logo-mark-ink.svg', 'mark ink svg');
+  await trace(markBuffer, '#FBFAF6', 'logo-mark-light.svg', 'mark light svg');
 
   // Full lockup (mark + wordmark), same treatment, for places we want the full logo.
   const fullRaw = await sharp(SRC).greyscale().normalise().toBuffer();
   const fullBuffer = await trimAndPad(fullRaw);
 
-  await trace(fullBuffer, '#E8E1D6', 'logo-full.svg', 'full svg');
-  await trace(fullBuffer, '#241F1A', 'logo-full-dark.svg', 'full dark svg');
+  await trace(fullBuffer, '#222821', 'logo-full.svg', 'full ink svg');
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
