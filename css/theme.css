@@ -401,9 +401,18 @@ p {
   }
 
   .hero-media-frame {
-    order: -1;
-    max-width: 20rem;
-    margin-bottom: var(--space-2);
+    display: none;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background-image: url('/images/gallery/bouquets/img_8001-800.webp');
+    background-size: cover;
+    background-position: center 22%;
+    opacity: 0.18;
   }
 }
 
