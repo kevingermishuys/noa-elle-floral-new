@@ -399,6 +399,12 @@ p {
   .hero-decor .bloom-3 {
     display: none;
   }
+
+  .hero-media-frame {
+    order: -1;
+    max-width: 20rem;
+    margin-bottom: var(--space-2);
+  }
 }
 
 .hero .wrap {
