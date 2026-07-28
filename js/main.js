@@ -63,3 +63,32 @@ if (header && hero) {
 } else if (header) {
   header.classList.add("is-solid");
 }
+
+// Motion pass (MOTION.md): choreographed hero entrance, once JS confirms it can run.
+requestAnimationFrame(() => document.body.classList.add("is-ready"));
+
+// Scroll reveals: fade + rise once, staggered by position among their siblings.
+const revealTargets = document.querySelectorAll(".section-head, .catalog-card, .delivery-list li, .teaser-card");
+if (revealTargets.length) {
+  const revealer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("in-view");
+      revealer.unobserve(entry.target);
+    });
+  }, { threshold: 0 });
+  revealTargets.forEach((el) => {
+    el.style.setProperty("--i", Array.from(el.parentElement.children).indexOf(el));
+    revealer.observe(el);
+  });
+}
+
+// Catalog card hover-swap: first tap reveals the second photo on touch devices, second tap follows the link.
+document.querySelectorAll(".catalog-card").forEach((card) => {
+  card.addEventListener("click", (e) => {
+    if (matchMedia("(hover: hover)").matches || card.classList.contains("is-active")) return;
+    e.preventDefault();
+    document.querySelectorAll(".catalog-card.is-active").forEach((c) => c.classList.remove("is-active"));
+    card.classList.add("is-active");
+  });
+});

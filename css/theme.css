@@ -81,6 +81,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -181,7 +182,11 @@ p {
   border-radius: var(--radius);
   border: 1px solid transparent;
   cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  transition: background-color 0.24s ease, color 0.24s ease, border-color 0.24s ease;
+}
+
+.btn:hover {
+  transition-duration: 0.2s;
 }
 
 .btn-primary {
@@ -292,15 +297,18 @@ p {
   text-transform: uppercase;
   color: var(--ink);
   opacity: 0.75;
+  padding-bottom: 0.3em;
+  background-image: linear-gradient(var(--protea), var(--protea));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  transition: background-size 0.3s ease, opacity 0.2s ease;
 }
 .main-nav a:hover,
 .main-nav a[aria-current="page"] {
   opacity: 1;
   color: var(--ink);
-  text-decoration: underline;
-  text-decoration-color: var(--protea);
-  text-decoration-thickness: 2px;
-  text-underline-offset: 0.3em;
+  background-size: 100% 2px;
 }
 
 .nav-toggle {
@@ -608,6 +616,7 @@ section {
 }
 
 .catalog-card .catalog-photo {
+  position: relative;
   aspect-ratio: 4 / 5;
   overflow: hidden;
 }
@@ -621,6 +630,19 @@ section {
 
 .catalog-card:hover .catalog-photo img {
   transform: scale(1.04);
+}
+
+.catalog-card .catalog-photo img.alt {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.45s ease, transform 0.6s ease;
+}
+
+.catalog-card:hover .catalog-photo img.alt,
+.catalog-card:focus-within .catalog-photo img.alt,
+.catalog-card.is-active .catalog-photo img.alt {
+  opacity: 1;
 }
 
 .catalog-card .catalog-body {
@@ -663,19 +685,20 @@ section {
 }
 
 .delivery-list li {
-  border-top: 1px solid var(--hairline-dark);
+  position: relative;
   padding-top: var(--space-2);
 }
 
-/* Light sections use the light hairline */
-.section-stone .delivery-list li,
-:not(.section-olive):not(.section-bark) > .wrap > .delivery-list li {
-  border-top-color: var(--hairline-dark);
-}
-
-.section-olive .delivery-list li,
-.section-bark .delivery-list li {
-  border-top-color: var(--hairline-dark);
+.delivery-list li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--hairline-dark);
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .delivery-list .icon {
@@ -1022,6 +1045,149 @@ section {
   }
 }
 
+/* ---------- Motion: hero entrance ---------- */
+
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes reveal-scale {
+  from { opacity: 0; transform: scale(1.03); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+body.is-ready .hero-content > * {
+  animation: reveal-up 500ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+body.is-ready .hero-content > *:nth-child(1) { animation-delay: 0ms; }
+body.is-ready .hero-content > *:nth-child(2) { animation-delay: 80ms; }
+body.is-ready .hero-content > *:nth-child(3) { animation-delay: 160ms; }
+body.is-ready .hero-content > *:nth-child(4) { animation-delay: 240ms; }
+body.is-ready .hero-content > *:nth-child(5) { animation-delay: 320ms; }
+body.is-ready .hero-content > *:nth-child(6) { animation-delay: 400ms; }
+
+body.is-ready .hero-media-frame {
+  animation: reveal-scale 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: 200ms;
+}
+
+/* ---------- Motion: scroll reveals ---------- */
+
+body.is-ready .section-head,
+body.is-ready .catalog-card,
+body.is-ready .delivery-list li,
+body.is-ready .teaser-card {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 600ms ease, transform 600ms ease;
+  transition-delay: calc(var(--i, 0) * 70ms);
+}
+
+body.is-ready .section-head.in-view,
+body.is-ready .catalog-card.in-view,
+body.is-ready .delivery-list li.in-view,
+body.is-ready .teaser-card.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+body.is-ready .section-head .eyebrow::after {
+  transition: transform 400ms ease;
+}
+body.is-ready .section-head.in-view .eyebrow::after {
+  transform: rotate(135deg) translateY(-1px);
+}
+
+body.is-ready .section-olive .delivery-list li::before,
+body.is-ready .section-bark .delivery-list li::before {
+  transform: scaleX(0);
+  transition: transform 500ms ease;
+  transition-delay: calc(var(--i, 0) * 70ms);
+}
+body.is-ready .section-olive .delivery-list li.in-view::before,
+body.is-ready .section-bark .delivery-list li.in-view::before {
+  transform: scaleX(1);
+}
+
+/* ---------- Motion: micro-details ---------- */
+
+@keyframes attention-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+body.is-ready .hero .btn-primary,
+body.is-ready .gallery-hero .btn-primary {
+  animation: attention-pulse 900ms ease-in-out 1;
+  animation-delay: 6s;
+}
+
+/* Plan B hero motion: a slow Ken Burns drift until Inge's video clip lands. */
+@keyframes ken-burns {
+  from { transform: scale(1) translate(0, 0); }
+  to   { transform: scale(1.06) translate(-1%, -1%); }
+}
+
+.hero-media-frame img {
+  animation: ken-burns 24s ease-in-out infinite alternate;
+}
+
+/* ---------- Full-bleed interlude ---------- */
+
+.interlude {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.interlude-media {
+  position: absolute;
+  inset: 0;
+}
+
+.interlude-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.interlude::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(34, 40, 33, 0.6), rgba(34, 40, 33, 0.05) 60%);
+}
+
+.interlude-content {
+  position: relative;
+  z-index: 1;
+  padding-top: var(--space-5);
+  padding-bottom: var(--space-5);
+  color: var(--porcelain);
+  text-align: center;
+}
+
+.interlude-content .hero-tease {
+  color: var(--porcelain);
+  font-size: 1.4rem;
+  margin-bottom: var(--space-3);
+}
+
+.interlude-content .btn-row {
+  justify-content: center;
+}
+
+.interlude-content .btn-secondary {
+  color: var(--porcelain);
+  border-color: var(--hairline-dark);
+}
+.interlude-content .btn-secondary:hover {
+  border-color: var(--porcelain);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -1031,5 +1197,11 @@ section {
   }
   .gallery-item .stems {
     transform: none;
+  }
+  html {
+    scroll-behavior: auto !important;
+  }
+  .hero-media-frame img {
+    animation: none !important;
   }
 }
