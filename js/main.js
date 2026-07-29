@@ -67,6 +67,12 @@ if (header && hero) {
 // Motion pass (MOTION.md): choreographed hero entrance, once JS confirms it can run.
 requestAnimationFrame(() => document.body.classList.add("is-ready"));
 
+// Mobile hero video: play unless the visitor prefers reduced motion (poster shows instead).
+const heroVideo = document.querySelector(".hero-video video");
+if (heroVideo && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  heroVideo.play().catch(() => {});
+}
+
 // Scroll reveals: fade + rise once, staggered by position among their siblings.
 const revealTargets = document.querySelectorAll(".section-head, .catalog-card, .delivery-list li, .teaser-card");
 if (revealTargets.length) {

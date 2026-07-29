@@ -423,16 +423,33 @@ p {
   .hero-media-frame {
     display: none;
   }
+}
 
-  .hero::before {
-    content: "";
+.hero-video {
+  display: none;
+}
+
+@media (max-width: 56rem) {
+  .hero-video {
+    display: block;
     position: absolute;
     inset: 0;
     z-index: 0;
-    background-image: url('/images/gallery/bouquets/img_8001-800.webp');
-    background-size: cover;
-    background-position: center 22%;
-    opacity: 0.18;
+    overflow: hidden;
+  }
+
+  .hero-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 35%;
+  }
+
+  .hero-video::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(251, 250, 246, 0.86) 0%, rgba(251, 250, 246, 0.58) 45%, rgba(251, 250, 246, 0.82) 100%);
   }
 }
 

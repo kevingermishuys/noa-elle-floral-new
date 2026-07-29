@@ -10,7 +10,8 @@
     "trace-logo": "node scripts/trace-logo.js",
     "process-images": "node scripts/process-images.js",
     "build-gallery-html": "node scripts/build-gallery-html.js",
-    "crop-scrollbar-artefacts": "node scripts/crop-scrollbar-artefacts.js"
+    "crop-scrollbar-artefacts": "node scripts/crop-scrollbar-artefacts.js",
+    "process-hero-video": "node scripts/process-hero-video.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
+    "ffmpeg-static": "^5.3.0",
     "potrace": "^2.1.8",
     "sharp": "^0.35.3"
   }
