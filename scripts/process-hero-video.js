@@ -1,5 +1,6 @@
-// Mobile hero video: crop the letterboxed source down to its actual content,
-// re-encode small (no audio, H.264, single pass CRF), and pull a poster frame.
+// Hero video (used on both mobile full-bleed and the desktop arch frame):
+// crop the letterboxed source down to its actual content, re-encode small
+// (no audio, H.264, single pass CRF), and pull a poster frame.
 const ffmpegPath = require('ffmpeg-static');
 const sharp = require('sharp');
 const { execFileSync } = require('child_process');
@@ -13,9 +14,9 @@ if (!SRC) {
 }
 const CROP = process.argv[3]; // e.g. "882:484:2:716" — from `ffmpeg -vf cropdetect`, run manually first.
 
-const OUT_VIDEO = path.join(ROOT, 'video/hero-mobile.mp4');
-const OUT_POSTER_JPG = path.join(ROOT, 'images/hero/hero-video-poster-full.jpg');
-const OUT_POSTER_WEBP = path.join(ROOT, 'images/hero/hero-video-poster.webp');
+const OUT_VIDEO = path.join(ROOT, 'video/hero.mp4');
+const OUT_POSTER_JPG = path.join(ROOT, 'images/hero/hero-poster-full.jpg');
+const OUT_POSTER_WEBP = path.join(ROOT, 'images/hero/hero-poster.webp');
 
 // 1080-wide keeps it sharp on retina phones (~2-3x DPR); crf 24 for visible quality
 // on a moving subject rather than the soft/blurry look a higher crf gives at this size.
