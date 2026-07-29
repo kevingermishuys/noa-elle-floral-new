@@ -1185,10 +1185,12 @@ body.is-ready .gallery-hero .btn-primary {
   inset: 0;
 }
 
-.interlude-media img {
+.interlude-media img,
+.interlude-media video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background: var(--ink);
 }
 
 .interlude::after {

@@ -67,10 +67,16 @@ if (header && hero) {
 // Motion pass (MOTION.md): choreographed hero entrance, once JS confirms it can run.
 requestAnimationFrame(() => document.body.classList.add("is-ready"));
 
-// Mobile hero video: play unless the visitor prefers reduced motion (poster shows instead).
-const heroVideo = document.querySelector(".hero-video video");
-if (heroVideo && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
-  heroVideo.play().catch(() => {});
+// Background videos: play unless the visitor prefers reduced motion (poster shows instead).
+// The hero clip plays slowed down for a calmer, more cinematic feel.
+if (!matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  const heroVideo = document.querySelector(".hero-video video");
+  if (heroVideo) {
+    heroVideo.playbackRate = 0.5;
+    heroVideo.play().catch(() => {});
+  }
+  const interludeVideo = document.querySelector(".interlude-media video");
+  if (interludeVideo) interludeVideo.play().catch(() => {});
 }
 
 // Scroll reveals: fade + rise once, staggered by position among their siblings.

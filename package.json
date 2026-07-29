@@ -11,7 +11,8 @@
     "process-images": "node scripts/process-images.js",
     "build-gallery-html": "node scripts/build-gallery-html.js",
     "crop-scrollbar-artefacts": "node scripts/crop-scrollbar-artefacts.js",
-    "process-hero-video": "node scripts/process-hero-video.js"
+    "process-hero-video": "node scripts/process-hero-video.js",
+    "process-interlude-video": "node scripts/process-interlude-video.js"
   },
   "repository": {
     "type": "git",
