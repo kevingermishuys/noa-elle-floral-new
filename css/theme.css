@@ -451,7 +451,13 @@ p {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(251, 250, 246, 0.86) 0%, rgba(251, 250, 246, 0.58) 45%, rgba(251, 250, 246, 0.82) 100%);
+    background: linear-gradient(to bottom, rgba(251, 250, 246, 0.32) 0%, rgba(251, 250, 246, 0) 22%, rgba(251, 250, 246, 0) 72%, rgba(251, 250, 246, 0.45) 100%);
+  }
+
+  .hero-content {
+    background: rgba(251, 250, 246, 0.88);
+    padding: var(--space-3);
+    border-radius: var(--radius);
   }
 }
 
@@ -481,6 +487,13 @@ p {
 
 .hero-content h1 {
   color: var(--ink);
+}
+
+.hero-brand-name {
+  font-family: var(--font-display);
+  font-size: 2.25rem;
+  color: var(--ink);
+  margin: 0.15em 0 var(--space-2);
 }
 
 .hero-tease {
@@ -736,6 +749,11 @@ section {
 .section-olive .delivery-note,
 .section-bark .delivery-note {
   color: rgba(251, 250, 246, 0.85);
+}
+
+.section-olive .hero-tease,
+.section-bark .hero-tease {
+  color: var(--porcelain);
 }
 
 .delivery-note {

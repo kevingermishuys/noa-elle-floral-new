@@ -17,19 +17,21 @@ const OUT_VIDEO = path.join(ROOT, 'video/hero-mobile.mp4');
 const OUT_POSTER_JPG = path.join(ROOT, 'images/hero/hero-video-poster-full.jpg');
 const OUT_POSTER_WEBP = path.join(ROOT, 'images/hero/hero-video-poster.webp');
 
-const vf = CROP ? `crop=${CROP},scale=640:-2` : 'scale=640:-2';
+// 1080-wide keeps it sharp on retina phones (~2-3x DPR); crf 24 for visible quality
+// on a moving subject rather than the soft/blurry look a higher crf gives at this size.
+const vf = CROP ? `crop=${CROP},scale=1080:-2` : 'scale=1080:-2';
 
 execFileSync(ffmpegPath, [
   '-y', '-i', SRC,
   '-an', '-vf', vf,
   '-c:v', 'libx264', '-profile:v', 'main', '-pix_fmt', 'yuv420p',
-  '-crf', '27', '-preset', 'slow', '-movflags', '+faststart',
+  '-crf', '24', '-preset', 'slow', '-movflags', '+faststart',
   OUT_VIDEO,
 ], { stdio: 'inherit' });
 
 execFileSync(ffmpegPath, ['-y', '-ss', '0.2', '-i', OUT_VIDEO, '-frames:v', '1', OUT_POSTER_JPG], { stdio: 'inherit' });
 
-sharp(OUT_POSTER_JPG).webp({ quality: 78 }).toFile(OUT_POSTER_WEBP).then(() => {
+sharp(OUT_POSTER_JPG).webp({ quality: 80 }).toFile(OUT_POSTER_WEBP).then(() => {
   require('fs').unlinkSync(OUT_POSTER_JPG);
   console.log('done:', OUT_VIDEO, OUT_POSTER_WEBP);
 });
