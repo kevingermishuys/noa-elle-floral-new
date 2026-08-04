@@ -842,7 +842,7 @@ section {
   grid-auto-flow: dense;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 9rem;
-  gap: 0.3rem;
+  gap: 0.5px;
 }
 
 /* Repeating bento rhythm: a big tile, a tall tile and a wide tile every 8 items. */
@@ -861,6 +861,7 @@ section {
   .bento-grid {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 12rem;
+    gap: 0.1rem;
   }
 }
 
@@ -877,6 +878,7 @@ section {
   background: var(--sand) center / cover no-repeat;
   cursor: default;
   border-radius: 0;
+  margin: 0;
 }
 
 .gallery-item img {
