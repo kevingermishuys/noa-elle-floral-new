@@ -1,51 +1,6 @@
 {
   "weddings": [
     {
-      "id": "img_7988",
-      "dir": "weddings",
-      "width": 1178,
-      "height": 1173,
-      "stems": "Garden roses, stock, olive foliage, candlelight",
-      "alt": "Long festoon-lit reception table at dusk, dressed with ivory florals and olive foliage",
-      "placeholder": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAADQBACdASoYABgAPu1ur1IppiQiqAgBMB2JYwC7ISABQPFe4pYEaFFF1GVBqgNoAAD91AEcqxFBgANpn+eAIzqfBN1L2fqSrh5yae+HPDaVO3iYPIhptzscAEpca5h+HSfbWXVoZ3I/NDA96kq6IK2yACWl68+s7D1dRbl4HbELk737M+vmXT10iZERw3Dy7lY+N/I/sGEaFBYU0PXmHSiGoTepOJIVbVlUzQrdNpMkLISnaxSL53WyFjKgIrHdrJRJbTv2bWCWCFEmUWhnynaf4ttMgdt9DmkNV2qib4DdAtYLAAA="
-    },
-    {
-      "id": "img_7989",
-      "dir": "weddings",
-      "width": 1168,
-      "height": 1167,
-      "stems": "Lisianthus, stock, veronica, baby's breath",
-      "alt": "Close centerpiece of white lisianthus, stock and veronica on a reception table",
-      "placeholder": "data:image/webp;base64,UklGRhIBAABXRUJQVlA4IAYBAADwBQCdASoYABgAPu1wsFKppiSiqAgBMB2JQBajXEeVaQcdJfIi5fHQOFEEkv9L4tNTpf57j/FpgAD8d+TFuLiHCZhZ8h4Kz9wV+LCTA3Z0aWOBTUZObM6zOihlphzPc3J9LvywiSitX7EWAgyWiDUoFvqTwNynuwh7Mweknfblwe3d6ATxCW+Fnk6IfHFVVrK/qhXa+POm4CUIb9lZ4PsU84tys2gO65k/qY1UwdBdgeQC7q+mH62gtDa3DlLWQN5aDYafGnaKyqBJpEfKQmEnaVssGOaJqR3ojWLYf7DbVTDYAzNp01QPNYu1cTM6/TieK7JPfcZWu3gyW6l5I9khg8grt2AA"
-    },
-    {
-      "id": "img_7990",
-      "dir": "weddings",
-      "width": 1168,
-      "height": 1172,
-      "stems": "Baby's breath, garden roses, lisianthus, olive foliage",
-      "alt": "Floral arch dressed with white roses and baby's breath, festoon bulbs hanging above",
-      "placeholder": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAACQBQCdASoYABgAPu1oqU+ppiOiKA1RMB2JQBWGYxUgK5KOEUo9WSeboAXPWQ7bO7EIDNffgAD+rqBYvmR+cIBDy1ATFoFNhHpDdie1OB8h0mLCRN8aY6fG4Ncau755/QnWgZOW1EC0ZdkROTtnFcV0+VwN4nrG34BmVj5QIiaSZEBS6eo1dwUtfBJL1TFMerLKOH7Td/OlfaYEGQY4r/R364MsBHVbeF3i2IwRYbljfp7+L8CJnHVT5Zwq6pkwNGXcdvLkNwS6ILwYeNSoB4crgYrI8ktsdA/GYn0o0RirhIDA0AA="
-    },
-    {
-      "id": "img_7992",
-      "dir": "weddings",
-      "width": 1168,
-      "height": 1171,
-      "stems": "Lisianthus, stock, roses, veronica",
-      "alt": "Table centerpiece with soft string-light bokeh behind white blooms",
-      "placeholder": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAACQBQCdASoYABgAPu1wsFIppiSiqAgBMB2JQBOgTYDr4EGjz/JJYfENMC9E2jUCA/HdKMNdoAD+hBK/9Rfh/UJwU4+Sx5tsLlYAiJYVaO6NOt8nNk8gtaCnZ5MENZju4EW3CM7CoDQDzKGdCdPsuzNbunIUi2N+3B7GxCOPZTT/ubJ+bvcneAJSRRA231dxzi9zj3wsfCaI6Ppg9oHcVZLInx3UXq6/7zmGBpSmUXQrqxHJGzw68Bb/aNMvX/cRuFtXvks0841n5qqOqowDFf0WlCqk+7RRQqMAAA=="
-    },
-    {
-      "id": "img_7994",
-      "dir": "weddings",
-      "width": 1178,
-      "height": 1173,
-      "stems": "Lisianthus, garden roses, olive foliage, dusk light",
-      "alt": "Long reception table at dusk under festoon lights, shown in black and white",
-      "placeholder": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAwBQCdASoYABgAPu1mqk8ppaOiKA1RMB2JaQAAJa+fXTXYGwCH9oMTKMcXOhVkTUT0AAD8yusUZEcnvmIvk+6NwNrm2NWdpLqTrezDikpjk8s/ZmObMValiACa6BZtFBaLChOF0d77BVqOTL99H4XMWCdFJBAAM/RgW9Mvyl1Ht+GZOEXK2LXYZmsqUYWzHfxXNkFFQ39hFL8VPX20cuPAmFN4NAevL52wfZGAAAA="
-    },
-    {
       "id": "red-white-01",
       "dir": "weddings",
       "width": 962,
@@ -163,6 +118,51 @@
       "alt": "Close detail of a red and white rose and dahlia garland"
     },
     {
+      "id": "pink-coral-01",
+      "dir": "weddings",
+      "width": 853,
+      "height": 1280,
+      "placeholder": "data:image/webp;base64,UklGRjwBAABXRUJQVlA4IDABAADwBgCdASoYACQAPu1kqU6ppaOiKqwBMB2JZACxHoLT/xLADT00RH7H2PP+B5ldlWqCvFLfe//T8ahjd1JyFQYAAP4645N34px9JMLbjBSvbedeTlgsLHFRwBbke9eDxTV9B5F2ekQJLtbHw4l96r7Xz2fIcVfw0sT06CuX5PCzqRQB0D6eWuv4LR3Xt8yBqxuNpOQ+Mw1NKMtfCwimIeNJRgabscsdx91kB+kOK0kB6byWLzB6RlgMrWxZ3vm5AHJOBalDDK/jWq8M8QOHrTT9rODCtFGCYf9pEJjuAr5yrcmHwQr2kuFIpAZ7b061QHGZhzku+n22BTVc3oNUcD0OxohSiVTkSWz26pJ3QlWSs5CjVSyn9KjWvpXpqFMdRzYkJEDaNt+PQeCqNLJX+QAA",
+      "stems": "Pink peony, coral rose, orange gerbera, delphinium",
+      "alt": "Bud vases of pink, coral and orange blooms on a dusk-lit table"
+    },
+    {
+      "id": "pink-coral-02",
+      "dir": "weddings",
+      "width": 853,
+      "height": 1280,
+      "placeholder": "data:image/webp;base64,UklGRjgBAABXRUJQVlA4ICwBAABQBwCdASoYACQAPu1qrlIppaQiqrgIATAdiUAXZnmORNgAa6DqFO/ZB9YHPRQA4dRrTYSK1UbeM/HVTES0uIacMZmcAP7fvJTjBedFppy/akpZACWVHKgUmCSetoKRUlblcvoILMN4q/kv72njzxQbvYqHsmGoDZm6q6RjkFWP+sPTgtw2XxtSFSYJ50iwMGOdHiZTmPJ/0foj1uuYwuVd2+QNnFOOk6lqLyT5Dihrkj/dpHhhp6rU+ssPsleo9rtVILME4Wxu2Gy+Wt74GhV38XUdMbo0j8VKifvWqYP58mAuZRf0aFkpZr6ob8xGBwAQEakmsT6oh220+rCxvFp5lk/hQn+KXWs6w6G58pN25jt9mgIWWtfssQ9CSQaz6a4GG84PzNu/CpvSAAA=",
+      "stems": "Pink rose, coral carnation, orange rose",
+      "alt": "Vivid pink and coral floral garland runner along a reception table"
+    },
+    {
+      "id": "pink-coral-03",
+      "dir": "weddings",
+      "width": 853,
+      "height": 1280,
+      "placeholder": "data:image/webp;base64,UklGRk4BAABXRUJQVlA4IEIBAACQBwCdASoYACQAPu1urlIppiQipWsxMB2JYgDDZxDZWKiF3MrcNbyT+sYWVt8C4xizRSYE1lKEnK7Ey/wPuSRo2DDW+gAA/vcOEzy/tPrrdoreq608+bXUv+IlqYG9ZskMY8p8brLD8TG1kyHj2SsGeWs83bH3ugeAH1uarnRtDPcTEpFEUMoEDQHSq2nSXazanZcIBph1qPv3or6eMMEByrDmdZ3Q/7G/b76+fJ3R/+X7/W+DzpDex6pDf1cxD+DH3BPFNd14OXYdpl5mvXNDnsNTVTNoyCDvNSOxlNb5S8f69xsEJvesLzOmLSXymQk6kw2xsYVVcfhJYEPNTbelM0GjOJ/BNnwf8TdmuzIVZVnP2nmHtVZOdOzNFrHNrwlWdag68IQU9t4EFyW71OJDxn0R/7UxTORsNFRRC2+X0AAA",
+      "stems": "Pink gerbera, coral rose, blue delphinium, orchid",
+      "alt": "Bride encircled by vivid pink, coral and blue bridesmaid bouquets"
+    },
+    {
+      "id": "pink-coral-04",
+      "dir": "weddings",
+      "width": 1280,
+      "height": 853,
+      "placeholder": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdAYye5U00g94jYDc9E4pioAD+4NpLhnV2cpYbMAKzhm+UA44gwJMA6KCnxN6S3ulrTQUAKljEzqFXNvP1QrL47cvBpJuFe8IO3z84Bt6/6Syl0wSkXDvF9w+j2A7qbxTbn85SRjcy+55RXR8nKkAVZZh4kPX0v+UpZWANbMWneH1K8NF8VGrSVSDYfYk9F/IuT3YhScAA",
+      "stems": "Pink and coral roses, gerbera, delphinium",
+      "alt": "Bride and bridesmaids in dusty blue holding vivid pink and coral bouquets"
+    },
+    {
+      "id": "pink-coral-05",
+      "dir": "weddings",
+      "width": 853,
+      "height": 1280,
+      "placeholder": "data:image/webp;base64,UklGRgoBAABXRUJQVlA4IP4AAAAwBwCdASoYACQAPu1srlIppaQipWsxMB2JYwDAW4EHA+4BUo2uPjOYMkNHVVuYrRTaZjaaRhYlzugi6z5FM8uhPQAA/sN5Pf1np3Z7zAiyayoYyDVcGUYtuC4KtsfALKa1xzP9xf983a+AN/wk9oUgwv6gq8wFvQWNNWJ3N0huavm1oG/zwx570GFRu2rHsqRyLNDhLX+ClrkjMsE6NmS5BtFu3UkuWTtNarPdzNBzmXqFN+oN9puNCVjgYWRy0w4ncRa7DMt0OdCCdfJXX6SffXhFn+P9kf37ikq/YJ5G2iJNNeQZo2vrNkMq5A8QU3hC8pLURH8TayJAR/uAAA==",
+      "stems": "Pink and coral florals, string lights",
+      "alt": "Couple embracing between reception tables dressed in pink and coral at dusk"
+    },
+    {
       "id": "orange-yellow-01",
       "dir": "weddings",
       "width": 724,
@@ -226,6 +226,33 @@
       "alt": "Close detail of an orange, yellow and blue wildflower centerpiece"
     },
     {
+      "id": "dried-neutral-01",
+      "dir": "weddings",
+      "width": 1280,
+      "height": 853,
+      "placeholder": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JQAAINm6CEI3y9K8I6LyIgAD+05aMNWik3MDOL4VGm4XvPm2urq5bDIPL9k90GPyZU0Ukn8tTxOyVS7pLDqXwoZTSwyJWoy7d8SW4UAsoapG1VubZPAz78Z5CslnPA4bnHRfgAAA=",
+      "stems": "Dried protea, pampas grass, olive foliage",
+      "alt": "Bridal getting-ready flatlay with a dried protea and pampas bouquet"
+    },
+    {
+      "id": "dried-neutral-02",
+      "dir": "weddings",
+      "width": 853,
+      "height": 1280,
+      "placeholder": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAACwBgCdASoYACQAPu1ysVOppqQipWgBMB2JZQC4MFDbqj/1VAMsFhEzK049P2h5glsetznH+1htK85VBPZDAAD+893R910zQj3lkDDV20gA32MYcUnvVYgDHFWZvxGGhW6ml9HgidG97Dzk3ZBzilTMz9yr6xwmdQIDj31Z1Yxg9mMRfu0lF/9FFf5UAxS/0moLkX3iBPNuf8beTXfXkKxUVCh9d8YKbfOyi0AyLqzquMrzXDd/KWyWtvrqdU7FEyMwYAytTOyC6avMBhoda8eWsBHv4MA5uzMCbrbeWCuEgAAA",
+      "stems": "Dried protea, pampas grass, cream rose",
+      "alt": "Sweetheart table beneath a dried protea and pampas floral arch"
+    },
+    {
+      "id": "dried-neutral-03",
+      "dir": "weddings",
+      "width": 1280,
+      "height": 853,
+      "placeholder": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCdMoACoLqYRfVrPfiTQZ2AAPzGWvSiJlSX87G7RlCyiiOgTTEdI0kja7JgMrdaNGdq8AEPOrnEhRdJVPMAKttVsSPYQC8QtuV9uiWQcNoA8Npu6+7C56OMlEgKJN8O+8Ww6XuHWfxpfcRIDbwNud24d7qkm2EybmFgBNtpY85YzWoAAA==",
+      "stems": "Dried protea, pampas grass, cream rose",
+      "alt": "Centerpiece of dried protea, pampas grass and cream roses"
+    },
+    {
       "id": "white-blush-01",
       "dir": "weddings",
       "width": 1080,
@@ -269,6 +296,51 @@
       "placeholder": "data:image/webp;base64,UklGRgABAABXRUJQVlA4IPQAAACwBQCdASoYACQAPu1oq1AppiOipW5hMB2JYwC+wYypxyYWqDJYgTBRM9LjyABDVzcCjHNQUQAA/vXSzsWOy+vq24m8mm0CAYAkoqYNjd4Z68uClobDqvS9BDe9OFFwE4XsJw3n3CqwriTZZNqzBt+Pu8T/r9SHCXuMn0toM6yGH77ipw2VUYv5tCzA37QzkcdAf0cY7vWMOojkYfykR33IfAWMPgiaQBqnIWca8ei0gE/HZjhrtDOaZFfI9ZxeLrlyTjo8H556m9LrhAOfb5ToU61/pa+rNVkOGZi+KyCu11BMSKhvrQ5o4kfevmchJUplgAAA",
       "stems": "Cream rose, olive foliage, candlelight",
       "alt": "Indoor evening reception table dressed with cream roses and olive garland"
+    },
+    {
+      "id": "img_7988",
+      "dir": "weddings",
+      "width": 1178,
+      "height": 1173,
+      "stems": "Garden roses, stock, olive foliage, candlelight",
+      "alt": "Long festoon-lit reception table at dusk, dressed with ivory florals and olive foliage",
+      "placeholder": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAADQBACdASoYABgAPu1ur1IppiQiqAgBMB2JYwC7ISABQPFe4pYEaFFF1GVBqgNoAAD91AEcqxFBgANpn+eAIzqfBN1L2fqSrh5yae+HPDaVO3iYPIhptzscAEpca5h+HSfbWXVoZ3I/NDA96kq6IK2yACWl68+s7D1dRbl4HbELk737M+vmXT10iZERw3Dy7lY+N/I/sGEaFBYU0PXmHSiGoTepOJIVbVlUzQrdNpMkLISnaxSL53WyFjKgIrHdrJRJbTv2bWCWCFEmUWhnynaf4ttMgdt9DmkNV2qib4DdAtYLAAA="
+    },
+    {
+      "id": "img_7989",
+      "dir": "weddings",
+      "width": 1168,
+      "height": 1167,
+      "stems": "Lisianthus, stock, veronica, baby's breath",
+      "alt": "Close centerpiece of white lisianthus, stock and veronica on a reception table",
+      "placeholder": "data:image/webp;base64,UklGRhIBAABXRUJQVlA4IAYBAADwBQCdASoYABgAPu1wsFKppiSiqAgBMB2JQBajXEeVaQcdJfIi5fHQOFEEkv9L4tNTpf57j/FpgAD8d+TFuLiHCZhZ8h4Kz9wV+LCTA3Z0aWOBTUZObM6zOihlphzPc3J9LvywiSitX7EWAgyWiDUoFvqTwNynuwh7Mweknfblwe3d6ATxCW+Fnk6IfHFVVrK/qhXa+POm4CUIb9lZ4PsU84tys2gO65k/qY1UwdBdgeQC7q+mH62gtDa3DlLWQN5aDYafGnaKyqBJpEfKQmEnaVssGOaJqR3ojWLYf7DbVTDYAzNp01QPNYu1cTM6/TieK7JPfcZWu3gyW6l5I9khg8grt2AA"
+    },
+    {
+      "id": "img_7990",
+      "dir": "weddings",
+      "width": 1168,
+      "height": 1172,
+      "stems": "Baby's breath, garden roses, lisianthus, olive foliage",
+      "alt": "Floral arch dressed with white roses and baby's breath, festoon bulbs hanging above",
+      "placeholder": "data:image/webp;base64,UklGRvAAAABXRUJQVlA4IOQAAACQBQCdASoYABgAPu1oqU+ppiOiKA1RMB2JQBWGYxUgK5KOEUo9WSeboAXPWQ7bO7EIDNffgAD+rqBYvmR+cIBDy1ATFoFNhHpDdie1OB8h0mLCRN8aY6fG4Ncau755/QnWgZOW1EC0ZdkROTtnFcV0+VwN4nrG34BmVj5QIiaSZEBS6eo1dwUtfBJL1TFMerLKOH7Td/OlfaYEGQY4r/R364MsBHVbeF3i2IwRYbljfp7+L8CJnHVT5Zwq6pkwNGXcdvLkNwS6ILwYeNSoB4crgYrI8ktsdA/GYn0o0RirhIDA0AA="
+    },
+    {
+      "id": "img_7992",
+      "dir": "weddings",
+      "width": 1168,
+      "height": 1171,
+      "stems": "Lisianthus, stock, roses, veronica",
+      "alt": "Table centerpiece with soft string-light bokeh behind white blooms",
+      "placeholder": "data:image/webp;base64,UklGRuYAAABXRUJQVlA4INoAAACQBQCdASoYABgAPu1wsFIppiSiqAgBMB2JQBOgTYDr4EGjz/JJYfENMC9E2jUCA/HdKMNdoAD+hBK/9Rfh/UJwU4+Sx5tsLlYAiJYVaO6NOt8nNk8gtaCnZ5MENZju4EW3CM7CoDQDzKGdCdPsuzNbunIUi2N+3B7GxCOPZTT/ubJ+bvcneAJSRRA231dxzi9zj3wsfCaI6Ppg9oHcVZLInx3UXq6/7zmGBpSmUXQrqxHJGzw68Bb/aNMvX/cRuFtXvks0841n5qqOqowDFf0WlCqk+7RRQqMAAA=="
+    },
+    {
+      "id": "img_7994",
+      "dir": "weddings",
+      "width": 1178,
+      "height": 1173,
+      "stems": "Lisianthus, garden roses, olive foliage, dusk light",
+      "alt": "Long reception table at dusk under festoon lights, shown in black and white",
+      "placeholder": "data:image/webp;base64,UklGRroAAABXRUJQVlA4IK4AAAAwBQCdASoYABgAPu1mqk8ppaOiKA1RMB2JaQAAJa+fXTXYGwCH9oMTKMcXOhVkTUT0AAD8yusUZEcnvmIvk+6NwNrm2NWdpLqTrezDikpjk8s/ZmObMValiACa6BZtFBaLChOF0d77BVqOTL99H4XMWCdFJBAAM/RgW9Mvyl1Ht+GZOEXK2LXYZmsqUYWzHfxXNkFFQ39hFL8VPX20cuPAmFN4NAevL52wfZGAAAA="
     },
     {
       "id": "white-neutral-01",
@@ -332,78 +404,6 @@
       "placeholder": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAAAQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCw7Bedjh2FbQ0pM/Z+6ADMlV0IpDqt741h87E/995hTKr82Osm2f0abDxAo0g3fvDBNCa1QB5Q9B8XKqKIEu3v1nisSCIy4+YkdTAVq5zUeIrPM0BQ6NuEoJEff95Z+5HbfuNfPzra6o5JaORrwOfEOgAA",
       "stems": "Baby's breath, white florals",
       "alt": "Reception tables dressed with baby's breath runners in daylight"
-    },
-    {
-      "id": "pink-coral-01",
-      "dir": "weddings",
-      "width": 853,
-      "height": 1280,
-      "placeholder": "data:image/webp;base64,UklGRjwBAABXRUJQVlA4IDABAADwBgCdASoYACQAPu1kqU6ppaOiKqwBMB2JZACxHoLT/xLADT00RH7H2PP+B5ldlWqCvFLfe//T8ahjd1JyFQYAAP4645N34px9JMLbjBSvbedeTlgsLHFRwBbke9eDxTV9B5F2ekQJLtbHw4l96r7Xz2fIcVfw0sT06CuX5PCzqRQB0D6eWuv4LR3Xt8yBqxuNpOQ+Mw1NKMtfCwimIeNJRgabscsdx91kB+kOK0kB6byWLzB6RlgMrWxZ3vm5AHJOBalDDK/jWq8M8QOHrTT9rODCtFGCYf9pEJjuAr5yrcmHwQr2kuFIpAZ7b061QHGZhzku+n22BTVc3oNUcD0OxohSiVTkSWz26pJ3QlWSs5CjVSyn9KjWvpXpqFMdRzYkJEDaNt+PQeCqNLJX+QAA",
-      "stems": "Pink peony, coral rose, orange gerbera, delphinium",
-      "alt": "Bud vases of pink, coral and orange blooms on a dusk-lit table"
-    },
-    {
-      "id": "pink-coral-02",
-      "dir": "weddings",
-      "width": 853,
-      "height": 1280,
-      "placeholder": "data:image/webp;base64,UklGRjgBAABXRUJQVlA4ICwBAABQBwCdASoYACQAPu1qrlIppaQiqrgIATAdiUAXZnmORNgAa6DqFO/ZB9YHPRQA4dRrTYSK1UbeM/HVTES0uIacMZmcAP7fvJTjBedFppy/akpZACWVHKgUmCSetoKRUlblcvoILMN4q/kv72njzxQbvYqHsmGoDZm6q6RjkFWP+sPTgtw2XxtSFSYJ50iwMGOdHiZTmPJ/0foj1uuYwuVd2+QNnFOOk6lqLyT5Dihrkj/dpHhhp6rU+ssPsleo9rtVILME4Wxu2Gy+Wt74GhV38XUdMbo0j8VKifvWqYP58mAuZRf0aFkpZr6ob8xGBwAQEakmsT6oh220+rCxvFp5lk/hQn+KXWs6w6G58pN25jt9mgIWWtfssQ9CSQaz6a4GG84PzNu/CpvSAAA=",
-      "stems": "Pink rose, coral carnation, orange rose",
-      "alt": "Vivid pink and coral floral garland runner along a reception table"
-    },
-    {
-      "id": "pink-coral-03",
-      "dir": "weddings",
-      "width": 853,
-      "height": 1280,
-      "placeholder": "data:image/webp;base64,UklGRk4BAABXRUJQVlA4IEIBAACQBwCdASoYACQAPu1urlIppiQipWsxMB2JYgDDZxDZWKiF3MrcNbyT+sYWVt8C4xizRSYE1lKEnK7Ey/wPuSRo2DDW+gAA/vcOEzy/tPrrdoreq608+bXUv+IlqYG9ZskMY8p8brLD8TG1kyHj2SsGeWs83bH3ugeAH1uarnRtDPcTEpFEUMoEDQHSq2nSXazanZcIBph1qPv3or6eMMEByrDmdZ3Q/7G/b76+fJ3R/+X7/W+DzpDex6pDf1cxD+DH3BPFNd14OXYdpl5mvXNDnsNTVTNoyCDvNSOxlNb5S8f69xsEJvesLzOmLSXymQk6kw2xsYVVcfhJYEPNTbelM0GjOJ/BNnwf8TdmuzIVZVnP2nmHtVZOdOzNFrHNrwlWdag68IQU9t4EFyW71OJDxn0R/7UxTORsNFRRC2+X0AAA",
-      "stems": "Pink gerbera, coral rose, blue delphinium, orchid",
-      "alt": "Bride encircled by vivid pink, coral and blue bridesmaid bouquets"
-    },
-    {
-      "id": "pink-coral-04",
-      "dir": "weddings",
-      "width": 1280,
-      "height": 853,
-      "placeholder": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdAYye5U00g94jYDc9E4pioAD+4NpLhnV2cpYbMAKzhm+UA44gwJMA6KCnxN6S3ulrTQUAKljEzqFXNvP1QrL47cvBpJuFe8IO3z84Bt6/6Syl0wSkXDvF9w+j2A7qbxTbn85SRjcy+55RXR8nKkAVZZh4kPX0v+UpZWANbMWneH1K8NF8VGrSVSDYfYk9F/IuT3YhScAA",
-      "stems": "Pink and coral roses, gerbera, delphinium",
-      "alt": "Bride and bridesmaids in dusty blue holding vivid pink and coral bouquets"
-    },
-    {
-      "id": "pink-coral-05",
-      "dir": "weddings",
-      "width": 853,
-      "height": 1280,
-      "placeholder": "data:image/webp;base64,UklGRgoBAABXRUJQVlA4IP4AAAAwBwCdASoYACQAPu1srlIppaQipWsxMB2JYwDAW4EHA+4BUo2uPjOYMkNHVVuYrRTaZjaaRhYlzugi6z5FM8uhPQAA/sN5Pf1np3Z7zAiyayoYyDVcGUYtuC4KtsfALKa1xzP9xf983a+AN/wk9oUgwv6gq8wFvQWNNWJ3N0huavm1oG/zwx570GFRu2rHsqRyLNDhLX+ClrkjMsE6NmS5BtFu3UkuWTtNarPdzNBzmXqFN+oN9puNCVjgYWRy0w4ncRa7DMt0OdCCdfJXX6SffXhFn+P9kf37ikq/YJ5G2iJNNeQZo2vrNkMq5A8QU3hC8pLURH8TayJAR/uAAA==",
-      "stems": "Pink and coral florals, string lights",
-      "alt": "Couple embracing between reception tables dressed in pink and coral at dusk"
-    },
-    {
-      "id": "dried-neutral-01",
-      "dir": "weddings",
-      "width": 1280,
-      "height": 853,
-      "placeholder": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JQAAINm6CEI3y9K8I6LyIgAD+05aMNWik3MDOL4VGm4XvPm2urq5bDIPL9k90GPyZU0Ukn8tTxOyVS7pLDqXwoZTSwyJWoy7d8SW4UAsoapG1VubZPAz78Z5CslnPA4bnHRfgAAA=",
-      "stems": "Dried protea, pampas grass, olive foliage",
-      "alt": "Bridal getting-ready flatlay with a dried protea and pampas bouquet"
-    },
-    {
-      "id": "dried-neutral-02",
-      "dir": "weddings",
-      "width": 853,
-      "height": 1280,
-      "placeholder": "data:image/webp;base64,UklGRu4AAABXRUJQVlA4IOIAAACwBgCdASoYACQAPu1ysVOppqQipWgBMB2JZQC4MFDbqj/1VAMsFhEzK049P2h5glsetznH+1htK85VBPZDAAD+893R910zQj3lkDDV20gA32MYcUnvVYgDHFWZvxGGhW6ml9HgidG97Dzk3ZBzilTMz9yr6xwmdQIDj31Z1Yxg9mMRfu0lF/9FFf5UAxS/0moLkX3iBPNuf8beTXfXkKxUVCh9d8YKbfOyi0AyLqzquMrzXDd/KWyWtvrqdU7FEyMwYAytTOyC6avMBhoda8eWsBHv4MA5uzMCbrbeWCuEgAAA",
-      "stems": "Dried protea, pampas grass, cream rose",
-      "alt": "Sweetheart table beneath a dried protea and pampas floral arch"
-    },
-    {
-      "id": "dried-neutral-03",
-      "dir": "weddings",
-      "width": 1280,
-      "height": 853,
-      "placeholder": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCdMoACoLqYRfVrPfiTQZ2AAPzGWvSiJlSX87G7RlCyiiOgTTEdI0kja7JgMrdaNGdq8AEPOrnEhRdJVPMAKttVsSPYQC8QtuV9uiWQcNoA8Npu6+7C56OMlEgKJN8O+8Ww6XuHWfxpfcRIDbwNud24d7qkm2EybmFgBNtpY85YzWoAAA==",
-      "stems": "Dried protea, pampas grass, cream rose",
-      "alt": "Centerpiece of dried protea, pampas grass and cream roses"
     },
     {
       "id": "meadow-white-01",
