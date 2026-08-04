@@ -18,7 +18,7 @@ function itemHtml(category, entry, index) {
   const lazy = index === 0 ? "eager" : "lazy";
   const fetchPriority = index === 0 ? ' fetchpriority="high"' : "";
   return `      <figure class="gallery-item" data-category="${category}" style="background-image:url('${placeholder}')">
-        <img src="${src}" srcset="${srcset(dir, id)}" sizes="(min-width: 64rem) 33vw, (min-width: 40rem) 50vw, 100vw" width="${width}" height="${height}" alt="${alt}" loading="${lazy}"${fetchPriority}>
+        <img src="${src}" srcset="${srcset(dir, id)}" sizes="(min-width: 64rem) 25vw, (min-width: 40rem) 33vw, 50vw" width="${width}" height="${height}" alt="${alt}" loading="${lazy}"${fetchPriority}>
         <figcaption class="stems">${stems}</figcaption>
       </figure>`;
 }
