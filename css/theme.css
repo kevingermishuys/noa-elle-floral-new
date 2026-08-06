@@ -189,6 +189,12 @@ p {
   transition-duration: 0.2s;
 }
 
+.btn-icon {
+  width: 1.15em;
+  height: 1.15em;
+  flex-shrink: 0;
+}
+
 .btn-primary {
   background: var(--ink);
   color: var(--porcelain);
@@ -234,6 +240,8 @@ p {
 
 /* ---------- Header / nav ---------- */
 
+/* Solid on every page and at every scroll position — over the hero the
+   translucent version let headings read straight through the nav. */
 .site-header {
   position: fixed;
   top: 0;
@@ -241,16 +249,8 @@ p {
   right: 0;
   z-index: 20;
   padding: var(--space-2) 0;
-  background: transparent;
-  border-bottom: 1px solid transparent;
-  transition: background-color 0.25s ease, border-color 0.25s ease;
-}
-
-.site-header.is-solid {
-  background: rgba(251, 250, 246, 0.92);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
-  border-bottom-color: var(--hairline-light);
+  background: var(--porcelain);
+  border-bottom: 1px solid var(--hairline-light);
 }
 
 .site-header .wrap {
@@ -258,6 +258,12 @@ p {
   align-items: center;
   justify-content: space-between;
   gap: var(--space-2);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
 }
 
 .brand {
@@ -309,6 +315,32 @@ p {
   opacity: 1;
   color: var(--ink);
   background-size: 100% 2px;
+}
+
+/* Quick-call icon, pinned to the right of the header on every page. */
+.call-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  color: var(--ink);
+  border: 1px solid var(--hairline-light);
+  border-radius: 50%;
+  transition: background-color 0.24s ease, border-color 0.24s ease, color 0.24s ease;
+}
+
+.call-btn svg {
+  width: 19px;
+  height: 19px;
+}
+
+.call-btn:hover,
+.call-btn:focus-visible {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--porcelain);
 }
 
 .nav-toggle {
@@ -584,6 +616,47 @@ section {
 .section-head {
   max-width: 38rem;
   margin-bottom: var(--space-4);
+}
+
+/* ---------- About: text beside a photograph ---------- */
+
+.about-split {
+  display: grid;
+  gap: var(--space-4);
+  align-items: center;
+}
+
+@media (min-width: 52rem) {
+  .about-split {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-5);
+  }
+
+  /* Photo first in the source, so it stays on top when the grid collapses. */
+  .about-split-reverse .about-photo {
+    order: -1;
+  }
+}
+
+.about-split .section-head {
+  margin-bottom: var(--space-3);
+}
+
+.about-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
+.pull-quote {
+  margin: 0 0 var(--space-3);
+  padding-left: var(--space-3);
+  border-left: 2px solid var(--protea);
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 0.8rem + 1.1vw, 1.45rem);
+  line-height: 1.35;
+  color: var(--ink);
 }
 
 /* ---------- Feature strip ---------- */
@@ -1023,6 +1096,10 @@ section {
     display: block;
   }
 
+  .header-actions {
+    gap: var(--space-1);
+  }
+
   .main-nav {
     display: none;
     position: absolute;
@@ -1039,11 +1116,6 @@ section {
 
   .site-header.nav-open .main-nav {
     display: flex;
-  }
-
-  .site-header.nav-open {
-    background: var(--porcelain);
-    border-bottom-color: var(--hairline-light);
   }
 
   .main-nav a {

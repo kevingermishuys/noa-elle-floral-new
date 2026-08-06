@@ -38,19 +38,6 @@ if (navToggle) {
   });
 }
 
-// Header goes solid once the hero has scrolled past, on pages that have one.
-const header = document.querySelector(".site-header");
-const hero = document.querySelector(".hero");
-if (header && hero) {
-  const onScroll = () => {
-    header.classList.toggle("is-solid", window.scrollY > hero.offsetHeight - 80);
-  };
-  document.addEventListener("scroll", onScroll, { passive: true });
-  onScroll();
-} else if (header) {
-  header.classList.add("is-solid");
-}
-
 // Motion pass (MOTION.md): choreographed hero entrance, once JS confirms it can run.
 requestAnimationFrame(() => document.body.classList.add("is-ready"));
 
