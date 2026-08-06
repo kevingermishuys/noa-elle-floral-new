@@ -13,10 +13,10 @@
       "id": "red-white-02",
       "dir": "weddings",
       "width": 953,
-      "height": 1429,
-      "placeholder": "data:image/webp;base64,UklGRkoBAABXRUJQVlA4ID4BAABwCACdASoYACQAPu1mqE8ppaOiKqwBMB2JYgC/a6cpKUAO9VYDLZYGaY9nsPf/3ljpyccT5TZriMjWfES955V1UPTY2MkWwGlpuCyAAP7pBCoV37rZpPzqSMISulSsxqigP2plsNo+54R6TYyKfkj0eYfBK2NMRbFBVT0JY+tuVjCKflnm6sUYbtBRKYvZC5j2wuHw1YUsVOYSAf/lPW/Hi7XL51q+O463yPirRHoORh/m0vL3OzRQKniVUDkv9yUnV+ATTTZ4BZX6rUUq5/FLyMwveBJAvSOzGRDxqgDNOZndXFOafUgoEaUniwL9FSmUek2FB6df0ZiQO5sC0nrR3+Qd6MhjZbTGJCeLE8y6to3mCcZh6WICUwyUVJLGlC2YQli5ocMbjXP5T7VH6GMB5AIStyBUIz7oAAAAAAA=",
+      "height": 779,
+      "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACQAwCdASoUABAAPu1kqk2ppaQiMAgBMB2JQBOgArFIr3rwlLSQAP7sHTy1kXkWcugOM8hp71djZtzVMwx25r8kyinLo9vk0XEJAFf9swBQPYAA",
       "stems": "Red dahlia, blush rose, red ranunculus",
-      "alt": "Naked wedding cake topped with red dahlias, blush roses and ranunculus"
+      "alt": "Naked wedding cake and cupcakes topped with red dahlias, blush roses and ranunculus"
     },
     {
       "id": "red-white-03",
@@ -103,10 +103,10 @@
       "id": "red-white-12",
       "dir": "weddings",
       "width": 935,
-      "height": 1403,
-      "placeholder": "data:image/webp;base64,UklGRhwBAABXRUJQVlA4IBABAADwBgCdASoYACQAPu1kqk4ppaOiNVQIATAdiWQAuzNkL1yJFBN7EeVuc7QriS12iwKgqlo4KpOO/LA0MfxU9MZAAP7nJy9Pd6Xb1/bzS+IZKgV45jLUvn8jW8F25Mrtp25zC+BiskbynyFxDpnkXNc+kwI2d1NlIuhjfuUzgG6amQbx6hM2WtQ5DYv+Y2AKbfuJWWkur/QOi5vUshmE+MjwdtrUXn3NTIaCRGtDZ7jHD5kIR+GL48BZiwpJSiYaXPj9kSTxCjOCGCU41Y6qbDwd5xG3pg/eQaZtt2/hUv3upYtWPm82INrpCANTl450QETV0EueKk3U6+TJhSTV9nnh3HZE6o6E6R/wkwYrAiqAAA==",
+      "height": 480,
+      "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAwCdASoUAAoAPu1kqk2ppaQiMAgBMB2JZQDE2B51s1bWMh0LThegAP7nQTjMlvHGBlRo9DW9UD+QrPEhiFrQAAA=",
       "stems": "White rose, blush rose, red carnation, eucalyptus",
-      "alt": "Welcome sign topped with a red, white and blush floral swag"
+      "alt": "Red, white and blush floral swag detail, iron scrollwork against open sky"
     },
     {
       "id": "red-white-13",
@@ -183,11 +183,11 @@
     {
       "id": "orange-yellow-03",
       "dir": "weddings",
-      "width": 1086,
-      "height": 724,
-      "placeholder": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAADQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoR3AdAo21zEmD4cqDYzh8QwCAD+3Ly5hjfPY8IHtVMb4jISQXivdbFHTk5B9AmpxzGDFa4GNkTOfE5M79jV3HxvZ83fzAulYJV5RvlhiQ+XNx8snDFQ93T01aG13BjI9n0jM+v/c7D8r2vMjrWUY9VjRq8NmgsxUSsl/DWT9SWA1ycsr6La3IF1uVyBuYJ/21emamjEk24PkxRCcdvGBSBB9CDQAA==",
+      "width": 666,
+      "height": 560,
+      "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwBQCdASoUABEAPu1kqk+ppSOiMBgIATAdiUAVIqyYK97QpdboOIKOOqbiuwPSvLBBAAD+sVYfi5bXNwnYHywpKXn92cwfytBTXKxMc172oPLxRSgf7aUD+FoZxIAA",
       "stems": "Orange rose, yellow chrysanthemum, blue delphinium",
-      "alt": "Place setting with an orange, yellow and blue centerpiece"
+      "alt": "Orange, yellow and blue centerpiece beside a folded napkin and wine glass"
     },
     {
       "id": "orange-yellow-04",
@@ -201,11 +201,11 @@
     {
       "id": "orange-yellow-05",
       "dir": "weddings",
-      "width": 724,
-      "height": 1086,
-      "placeholder": "data:image/webp;base64,UklGRjIBAABXRUJQVlA4ICYBAADQBwCdASoYACQAPu1kqE6ppaOiKqwBMB2JZgCpJw0AUc9/3Tx6iegDRwE5EILS9cb1uJJBscBGxVqmhWBTfZVT95ZAWEIXAAD+n9LPYB9dKfX9t0W/2+LVfpXhQ0IFn6z6mtoThCGicGaiASDJcCyGW3YhPQqmS00Qwzri994TAp0CSMA6LutCSegpkupeO1qwZxBxQmJoj7jYavBYfy4lxLp2PkeMiQCyjdV/c0dFQp6PaC1j3sGEvbuxKOPW+0mYH6IP4952x7jkfMFLfU6Z7vaFLCwad4ondaUayHWiR0U+k5kjQJ4lkdnKJwlnSuzYUHHvh5OlwLnPE3yUF/9j4CiMsWsUWZIXe0GZ1IIssT0VZ42HwcEDTerDjqJIuepPGeYOgAA=",
+      "width": 384,
+      "height": 580,
+      "placeholder": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoUAB4APu1kqE2ppaOiMAgBMB2JYgCxH5NEIDgKTBBgeQnEoSugAP7eq+2fe1FkvhBLDXL5DAHx6l5bGKTULJb2CwL1xz1WEWTZe8XURJXLKMLMUlY+XVkIJJo8R8nlgRXAAA==",
       "stems": "Orange marigold, yellow rose, white chrysanthemum",
-      "alt": "Vintage window frame seating chart trimmed with marigolds and roses"
+      "alt": "Marigold, rose and chrysanthemum spray on a weathered window frame"
     },
     {
       "id": "orange-yellow-06",

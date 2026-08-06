@@ -9,20 +9,7 @@ document.querySelectorAll("img[loading]").forEach((img) => {
   }
 });
 
-// Gallery filter tabs (Weddings / Events / Bouquets / All).
-const tabs = document.querySelectorAll(".filter-tab");
 const items = document.querySelectorAll(".gallery-item");
-function applyFilter(filter) {
-  tabs.forEach((t) => t.setAttribute("aria-pressed", String(t.dataset.filter === filter)));
-  items.forEach((item) => {
-    item.hidden = !(filter === "all" || item.dataset.category === filter);
-  });
-}
-tabs.forEach((tab) => tab.addEventListener("click", () => applyFilter(tab.dataset.filter)));
-const requestedFilter = new URLSearchParams(location.search).get("filter");
-if (requestedFilter && document.querySelector(`.filter-tab[data-filter="${requestedFilter}"]`)) {
-  applyFilter(requestedFilter);
-}
 
 // Signature feature: tap to reveal stem names on touch devices (hover covers the rest).
 items.forEach((item) => {

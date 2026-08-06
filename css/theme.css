@@ -795,48 +795,6 @@ section {
   padding: calc(var(--space-6) + 3rem) 0 var(--space-4);
 }
 
-.filter-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2);
-  margin-bottom: var(--space-4);
-}
-
-.filter-tab {
-  background: transparent;
-  border: 1px solid var(--hairline-light);
-  color: var(--ink);
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 0.55em 1.2em;
-  border-radius: var(--radius);
-  cursor: pointer;
-  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
-}
-
-.filter-tab:hover {
-  border-color: var(--ink);
-}
-
-.filter-tab[aria-pressed="true"] {
-  background: var(--olive);
-  border-color: var(--olive);
-  color: var(--porcelain);
-}
-
-.section-stone .filter-tab {
-  border-color: var(--hairline-light);
-  color: var(--ink);
-}
-.section-stone .filter-tab:hover {
-  border-color: var(--ink);
-}
-.section-stone .filter-tab[aria-pressed="true"] {
-  color: var(--porcelain);
-}
-
 .bento-grid {
   display: grid;
   grid-auto-flow: dense;
@@ -855,6 +813,17 @@ section {
 }
 .bento-grid .gallery-item:nth-child(8n+6) {
   grid-column: span 2;
+}
+
+/* Trailing part-cycle is squared off so the grid finishes on a clean row. */
+.bento-grid .gallery-item.is-plain {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.bento-grid .gallery-item.is-tail-wide {
+  grid-column: span 2;
+  grid-row: span 1;
 }
 
 @media (min-width: 40rem) {
@@ -918,10 +887,6 @@ section {
   height: 1px;
   background: var(--protea);
   margin-bottom: 0.5em;
-}
-
-.gallery-item[hidden] {
-  display: none;
 }
 
 /* ---------- Menu / order page ---------- */
