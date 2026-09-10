@@ -41,15 +41,8 @@ if (navToggle) {
 // Motion pass (MOTION.md): choreographed hero entrance, once JS confirms it can run.
 requestAnimationFrame(() => document.body.classList.add("is-ready"));
 
-// Background videos: play unless the visitor prefers reduced motion (poster shows instead).
-// The hero clip plays slowed down for a calmer, more cinematic feel. Same file backs both
-// the mobile full-bleed background and the desktop arch frame; only load the one in view.
+// Background video: play unless the visitor prefers reduced motion (poster shows instead).
 if (!matchMedia("(prefers-reduced-motion: reduce)").matches) {
-  const heroVideo = document.querySelector(matchMedia("(min-width: 56rem)").matches ? ".hero-media-frame video" : ".hero-video video");
-  if (heroVideo) {
-    heroVideo.playbackRate = 0.5;
-    heroVideo.play().catch(() => {});
-  }
   const interludeVideo = document.querySelector(".interlude-media video");
   if (interludeVideo) interludeVideo.play().catch(() => {});
 }
